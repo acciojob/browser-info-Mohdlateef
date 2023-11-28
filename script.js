@@ -1,5 +1,6 @@
 //your JS code here. If requic
-const addelement=document.getElementByTagName("body");
+const addelement=document.querySelector("body");
 const newelement=document.createElement("div");
-newelement.innerText="abc";
+newelement.innerText=navigator.userAgent;
 addelement.appendChild(newelement);
+// alert("abc");
